@@ -10,6 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            HStack {
+                Image(systemName: "globe")
+                    .renderingMode(/*@START_MENU_TOKEN@*/.template/*@END_MENU_TOKEN@*/)
+                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world! aaa asd")
+                    .font(.title)
+                    .foregroundColor(Color.orange)
+                    .multilineTextAlignment(.center)    
+            }
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
@@ -18,7 +29,7 @@ struct ContentView: View {
             Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
-            Text("Hello, world! aaaa ")
+            Text("Hello, world!")
         }
         .padding()
     }

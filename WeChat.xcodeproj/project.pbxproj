@@ -11,6 +11,10 @@
 		045D901829A70C6E00B21D9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D901729A70C6E00B21D9F /* ContentView.swift */; };
 		045D901A29A70C6F00B21D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D901929A70C6F00B21D9F /* Assets.xcassets */; };
 		045D901D29A70C6F00B21D9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D901C29A70C6F00B21D9F /* Preview Assets.xcassets */; };
+		04771B0429A855120004B0CA /* WeChatProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04771B0329A855120004B0CA /* WeChatProApp.swift */; };
+		04771B0629A855120004B0CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04771B0529A855120004B0CA /* ContentView.swift */; };
+		04771B0829A855140004B0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04771B0729A855140004B0CA /* Assets.xcassets */; };
+		04771B0B29A855140004B0CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04771B0A29A855140004B0CA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +23,22 @@
 		045D901729A70C6E00B21D9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		045D901929A70C6F00B21D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045D901C29A70C6F00B21D9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04771B0129A855120004B0CA /* WeChatPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04771B0329A855120004B0CA /* WeChatProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatProApp.swift; sourceTree = "<group>"; };
+		04771B0529A855120004B0CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04771B0729A855140004B0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04771B0A29A855140004B0CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		045D900F29A70C6D00B21D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04771AFE29A855120004B0CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				045D901429A70C6D00B21D9F /* WeChat */,
+				04771B0229A855120004B0CA /* WeChatPro */,
 				045D901329A70C6D00B21D9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				045D901229A70C6D00B21D9F /* WeChat.app */,
+				04771B0129A855120004B0CA /* WeChatPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +81,25 @@
 			isa = PBXGroup;
 			children = (
 				045D901C29A70C6F00B21D9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04771B0229A855120004B0CA /* WeChatPro */ = {
+			isa = PBXGroup;
+			children = (
+				04771B0329A855120004B0CA /* WeChatProApp.swift */,
+				04771B0529A855120004B0CA /* ContentView.swift */,
+				04771B0729A855140004B0CA /* Assets.xcassets */,
+				04771B0929A855140004B0CA /* Preview Content */,
+			);
+			path = WeChatPro;
+			sourceTree = "<group>";
+		};
+		04771B0929A855140004B0CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04771B0A29A855140004B0CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,6 +124,23 @@
 			productReference = 045D901229A70C6D00B21D9F /* WeChat.app */;
 			productType = "com.apple.product-type.application";
 		};
+		04771B0029A855120004B0CA /* WeChatPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04771B0C29A855140004B0CA /* Build configuration list for PBXNativeTarget "WeChatPro" */;
+			buildPhases = (
+				04771AFD29A855120004B0CA /* Sources */,
+				04771AFE29A855120004B0CA /* Frameworks */,
+				04771AFF29A855120004B0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatPro;
+			productName = WeChatPro;
+			productReference = 04771B0129A855120004B0CA /* WeChatPro.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +152,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					045D901129A70C6D00B21D9F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04771B0029A855120004B0CA = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				045D901129A70C6D00B21D9F /* WeChat */,
+				04771B0029A855120004B0CA /* WeChatPro */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +188,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04771AFF29A855120004B0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04771B0B29A855140004B0CA /* Preview Assets.xcassets in Resources */,
+				04771B0829A855140004B0CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,6 +206,15 @@
 			files = (
 				045D901829A70C6E00B21D9F /* ContentView.swift in Sources */,
 				045D901629A70C6E00B21D9F /* WeChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04771AFD29A855120004B0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04771B0629A855120004B0CA /* ContentView.swift in Sources */,
+				04771B0429A855120004B0CA /* WeChatProApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +381,71 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cp.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04771B0D29A855140004B0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeChatPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 45XCDW4GPK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cp.WeChatPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04771B0E29A855140004B0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeChatPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 45XCDW4GPK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cp.WeChatPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,6 +470,15 @@
 			buildConfigurations = (
 				045D902129A70C6F00B21D9F /* Debug */,
 				045D902229A70C6F00B21D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04771B0C29A855140004B0CA /* Build configuration list for PBXNativeTarget "WeChatPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04771B0D29A855140004B0CA /* Debug */,
+				04771B0E29A855140004B0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
